@@ -20,7 +20,7 @@ def play():
     return 'You lost.'
 
 
-# Order of hierarchy to win: r > s, s > p, p > r
+# Order of hierarchy to win: r > s, s > p, p > r 
 
 def is_win(player1, player2):
     """
