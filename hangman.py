@@ -1,17 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 from words import words
 
 import random
 import string
-
-
-# In[ ]:
-
 
 def get_valid_word(words):
     word = random.choice(words)
@@ -19,10 +12,6 @@ def get_valid_word(words):
         word = random.choice(words)
     
     return word
-
-
-# In[ ]:
-
 
 def hangman():
     word = get_valid_word(words).upper()
@@ -62,15 +51,5 @@ def hangman():
     else:
         print(f'Yay..!! You\'ve guessed the word correctly {word}')
 
-
-# In[ ]:
-
-
-hangman()
-
-
-# In[ ]:
-
-
-
-
+if __name__ == '__main__':
+    hangman()
