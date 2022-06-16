@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
 def madlib():
     adj = input("Adjective:  ")
     verb1 = input("Verb:  ")

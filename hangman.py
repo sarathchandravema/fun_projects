@@ -24,7 +24,7 @@ def hangman():
         print('\n')
         
         print(f'You have {lives} lives left.')
-        #printing guessed letters
+        #printing guessed letters 
         print('Letters you\'ve guessed ', ' '.join(guessed_letters))
         
         #current word
