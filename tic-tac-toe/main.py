@@ -26,10 +26,7 @@ def play(game, x_player, o_player, print_board=True):
                     print(f"{letter} wins the game..!!!")
                 return letter
 
-            if letter == 'X':
-                letter = 'O'
-            else:
-                letter = 'X'
+            letter = 'O' if letter == 'X' else 'X'
 
     if print_board:
         print("It's a tie")
